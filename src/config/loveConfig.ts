@@ -1,4 +1,4 @@
-const loveConfig = {
+export const loveConfig = {
   // Ваши имена
   yourName: "Даниил",
   partnerName: "Заюша",
@@ -19,7 +19,7 @@ const loveConfig = {
   // Ваша почта для уведомлений
   yourEmail: "shistik.dv@gmail.com",
 
-  // Карточки с вашей историей
+  // Карточки с вашей истории
   milestones: [
     { 
       title: "Начало нашей истории", 
