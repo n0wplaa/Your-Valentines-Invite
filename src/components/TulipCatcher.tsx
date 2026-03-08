@@ -141,22 +141,22 @@ export default function TulipCatcher({ onComplete, gameCompleted }: TulipCatcher
     <section className={styles.gameSection}>
       <div className={styles.container}>
         <div className={styles.gameHeader}>
-          <h2>A Little Game for You 🌷</h2>
-          <p>Catch {TARGET_SCORE} falling tulips to reveal something special!</p>
+          <h2>Небольшая игра для тебя 🌷</h2>
+          <p>Catch {TARGET_SCORE} Поймай 10 тюльпанов, чтобы открыть сюрприз!</p>
         </div>
 
         {!gameStarted ? (
           <div className={styles.startScreen}>
             <div className={styles.startCard}>
               <div className={styles.gameIcon}>🎮</div>
-              <h3>How to Play</h3>
+              <h3>Как играть</h3>
               <ul className={styles.instructions}>
-                <li>🌷 Tap the falling tulips to catch them</li>
-                <li>🎯 Catch {TARGET_SCORE} tulips to win</li>
-                <li>⏱️ Don't let them fall off the screen!</li>
+                <li>🌷 Нажимай на падающие тюльпаны, чтобы поймать их</li>
+                <li>🎯 Поймай {TARGET_SCORE} тюльпанов для победы</li>
+                <li>⏱️ Не дай им упасть мимо экрана!</li>
               </ul>
               <button className="btn-primary" onClick={startGame}>
-                Start Game
+                Начать игру
               </button>
             </div>
           </div>
