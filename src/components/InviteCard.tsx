@@ -17,7 +17,7 @@ export default function InviteCard({ onPlayAgain }: InviteCardProps) {
 
   const handleYesClick = () => {
     // Show celebration modal or directly trigger actions
-    alert('🎉 Yay! I knew you would say yes... I can\'t wait to celebrate with you!! 💕');
+    alert('🎉 Ура! Я так и знал, что ты согласишься!! 💕');
   };
 
   const handleNoClick = () => {
