@@ -12,7 +12,7 @@ interface TimeLeft {
 }
 
 export default function TimeCounter() {
-  const [timeLeft, setTimeLeft] = useState<TimeLeft>({ days: 0, hours: 0, МИНУТ: 0, СЕКУНД: 0 });
+  const [timeLeft, setTimeLeft] = useState<TimeLeft>({ days: 0, hours: 0, minutes: 0, seconds: 0 });
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -32,10 +32,10 @@ export default function TimeCounter() {
         const МИНУТ = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
         const СЕКУНД = Math.floor((difference % (1000 * 60)) / 1000);
 
-        return { ДНЕЙ, ЧАСОВ, МИНУТ, СЕКУНД };
+        return { days, hours, minutes, seconds };
       }
 
-      return { ДНЕЙ: 0, ЧАСОВ: 0, МИНУТ: 0, СЕКУНД: 0 };
+      return { days: 0, hours: 0, minutes: 0, seconds: 0 };
     };
 
     // Initial calculation
@@ -78,13 +78,13 @@ export default function TimeCounter() {
 
             <div className={styles.timeBox}>
               <div className={styles.timeValue}>{timeLeft.minutes}</div>
-              <div className={styles.timeLabel}>Minutes</div>
+              <div className={styles.timeLabel}>МИНУТЫ</div>
               <div className={styles.timeIcon}>⏱️</div>
             </div>
 
             <div className={styles.timeBox}>
               <div className={styles.timeValue}>{timeLeft.seconds}</div>
-              <div className={styles.timeLabel}>Seconds</div>
+              <div className={styles.timeLabel}>СЕКУНДЫ</div>
               <div className={styles.timeIcon}>⚡</div>
             </div>
           </div>
