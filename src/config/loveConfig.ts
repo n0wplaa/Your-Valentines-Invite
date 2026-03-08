@@ -58,6 +58,7 @@ const loveConfig = {
   ],
 
   // Детали сюрприза в конце
+  inviteTitle: "Особое приглашение! 💌",
   inviteMessage: "Я приготовил для тебя сюрприз! Жду тебя!",
   inviteTime: "Сегодня",
   inviteLocation: "Праздник только начинается!",
