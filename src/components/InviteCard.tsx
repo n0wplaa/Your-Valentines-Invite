@@ -152,7 +152,7 @@ END:VCALENDAR`;
           <div className={styles.detailItem}>
             <span className={styles.detailIcon}>📅</span>
             <div>
-              <div className={styles.detailLabel}>Date</div>
+              <div className={styles.detailLabel}>ДАТА</div>
               <div className={styles.detailValue}>{loveConfig.inviteDate}</div>
             </div>
           </div>
@@ -160,7 +160,7 @@ END:VCALENDAR`;
           <div className={styles.detailItem}>
             <span className={styles.detailIcon}>🕐</span>
             <div>
-              <div className={styles.detailLabel}>Time</div>
+              <div className={styles.detailLabel}>ВРЕМЯ</div>
               <div className={styles.detailValue}>{loveConfig.inviteTime}</div>
             </div>
           </div>
@@ -168,7 +168,7 @@ END:VCALENDAR`;
           <div className={styles.detailItem}>
             <span className={styles.detailIcon}>📍</span>
             <div>
-              <div className={styles.detailLabel}>Location</div>
+              <div className={styles.detailLabel}>МЕСТО</div>
               <div className={styles.detailValue}>{loveConfig.inviteLocation}</div>
             </div>
           </div>
@@ -181,7 +181,7 @@ END:VCALENDAR`;
             className={`btn-primary ${styles.yesButton}`}
             onClick={handleYesClick}
           >
-            Yes! I'd Love To! 💕
+            Да! Я с удовольствием! 💕
           </button>
 
           <button 
@@ -196,7 +196,7 @@ END:VCALENDAR`;
             }}
             onClick={handleNoClick}
           >
-            No 😢
+            Нет 😢
           </button>
 
           <div className={styles.secondaryActions}>
@@ -204,14 +204,14 @@ END:VCALENDAR`;
               className="btn-secondary"
               onClick={handleAddToCalendar}
             >
-              📅 Add to Calendar
+              📅 Добавить в календарь
             </button>
 
             <button 
               className="btn-secondary"
               onClick={handleSendAnswer}
             >
-              💌 Send My Answer
+              💌 Отправить ответ
             </button>
           </div>
         </div>
@@ -221,7 +221,7 @@ END:VCALENDAR`;
             className={styles.playAgainButton}
             onClick={onPlayAgain}
           >
-            🎮 Play Game Again
+            🎮 Сыграть еще раз
           </button>
         </div>
       </div>
