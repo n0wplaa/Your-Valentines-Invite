@@ -1,4 +1,4 @@
-const loveConfig = {
+export const loveConfig = {
   // Ваши имена
   yourName: "Даниил",
   partnerName: "Заюша",
@@ -60,9 +60,9 @@ const loveConfig = {
   // Детали сюрприза в конце
   inviteTitle: "Особое приглашение! 💌",
   inviteMessage: "Я приготовил для тебя сюрприз! Жду тебя!",
+  inviteDate: "8 Марта",
   inviteTime: "Сегодня",
   inviteLocation: "Праздник только начинается!",
 };
 
-export const config = loveConfig;
 export default loveConfig;
