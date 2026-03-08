@@ -63,8 +63,8 @@ export default function ParallaxTimeline() {
 
       <div className={styles.container}>
         <div className={styles.header}>
-          <h2>Our Love Story</h2>
-          <p>Every moment, a chapter in our beautiful journey together</p>
+          <h2>Наша история</h2>
+          <p>Каждый момент — главная страница в нашем путешествии</p>
         </div>
 
         <div className={styles.timelineTrack}>
